@@ -1,0 +1,37 @@
+******COMMANDS USED FOR THE DOCKER PROJECT*****
+
+ls - Lists files in the current directory.
+
+cd github - Changes to the github directory.
+
+ls - Lists files in the github directory.
+
+cd simple-django-app - Changes to the simple-django-app directory.
+
+ls - Lists files in the simple-django-app directory
+
+docker ps - Displays running Docker containers.
+
+vim Dockerfile - Opens the Dockerfile for editing.
+
+docker build -t counter-app . - Builds the Docker image counter-app from the Dockerfile in the current directory.
+
+docker ps - Displays running Docker containers after build.
+
+docker kill 0d868dc3ba52 && docker rm 0d868dc3ba52 - Stops and removes the container with ID 0d868dc3ba52.
+
+docker run -d -p 8000:8000 counter-app:latest - Runs the counter-app container in detached mode, mapping port 8000 of the container to port 8000 on the host.
+
+ls - Lists files in the current directory. 13-21. cd commands - Navigate through different directories to work on project files.
+
+docker build -t counter-app . - Builds the Docker image again after changes.
+
+docker ps - Displays running Docker containers again.
+
+docker kill c6e654964983 && docker rm c6e654964983 - Stops and removes the container with ID c6e654964983.
+
+docker run -d -p 8000:8000 counter-app:latest - Runs the Docker container again.
+
+cat Dockerfile - Displays the contents of the Dockerfile.
+
+history - Shows the command history.
